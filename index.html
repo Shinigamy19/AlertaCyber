@@ -16,9 +16,8 @@
 
           font-family: Arial,
           sans-serif;
-            
-          background-color: #000000;
-            
+           
+          background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 79%, rgba(17,164,40,1) 100%);
           padding: 20px;
   
           color: white;      
@@ -64,6 +63,40 @@
 
          }
 
+/* Estilo para el footer */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+        footer .logo-container {
+            text-align: center;
+        }
+        footer .logo-container img {
+            max-width: 100px; /* Limita el tamaño del logo */
+            height: auto;
+        }
+        footer p {
+            color: #1DE03C;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        footer a {
+            color: #1DE03C; /* Verde para los enlaces */
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
+
   </style>
 
  </head>
@@ -106,4 +139,22 @@
      <p>Además, les pedimos que cuiden las cuentas que les prestamos para jugar ya que son de uso comunitario.</p>
 
     </div>
+    <!-- Footer -->
+    <footer>
+      <!-- Enlace izquierdo -->
+      <div class="left-link">
+        <!-- A futuro reemplazar por redes en linktree -->
+        <a href="https://www.instagram.com/bunker_sanmiguel/">@bunker_sanmiguel</a>
+      </div>
+      
+      <!-- Logo en el centro -->
+      <div class="logo-container">
+        <img src="https://github.com/Shinigamy19/AlertaCyber/blob/main/Cyber%20Bunker.png?raw=true" alt="Logo de Cyberbuker">
+      </div>
+
+      <!-- Enlace derecho -->
+      <div class="right-link">
+        <p>+54 9 11 2388-2881</p>
+      </div>
+    </footer>
 </html>
